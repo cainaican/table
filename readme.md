@@ -15,4 +15,4 @@
     
 ## Демо версия доступна по ссылке
 
-{url}
+https://cainaican.github.io/table/
