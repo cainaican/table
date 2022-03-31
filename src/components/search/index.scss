@@ -1,0 +1,9 @@
+.search {
+  grid-area: search;
+  font-size: 18px;
+  height: 50px;
+
+  @media (max-height: 865px) {
+    margin-bottom: 40px;
+  }
+}

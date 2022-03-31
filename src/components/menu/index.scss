@@ -1,0 +1,14 @@
+.menu {
+  grid-area: menu;
+  margin: auto 0px;
+
+  &__title {
+    background-color: rgba(255, 255, 255, 0.767);
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  &__list {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+@import 'custom';
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+
+  @media (max-width: 585px) {
+    font-size: 8px;
+  }
+}
+
+body {
+  height: 96vh;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+}
+
+.main {
+  display: grid;
+  grid-template-areas: ' menu search'
+    'menu table'
+    'menu main__footer';
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 11fr;
+  column-gap: 30px;
+  height: 100%;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: baseline;
+}
